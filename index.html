@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>ybLЮDok</title>
+</head>
+<body>
+    <div class=" section bg-zinc-700 min-w-full h-screen flex content-center">
+
+        <div class=" mx-auto my-auto w-80 bg-neutral-900 h-3/6 rounded-lg ">
+<div class=" rounded-lg bg-black w-full h-2/5 flex justify-end items-end flex-col ">
+    <input type="text" class="text-slate-500 w-3/4 bg-black text-xl text-end mr-5" id="err" placeholder="">
+    <input type="text" class="text-slate-500 w-3/4 bg-black text-xl text-end mr-5" id="dispprev" placeholder="">
+    <input type="text" class="text-slate-400 w-3/4 bg-black text-3xl text-end mr-5  " id="disp" placeholder="0">
+</div>
+
+
+<div id="buttons " class="my-9 text-2xl text-white  rounded-lg">
+
+<div class="flex h-1/4  mx-auto">
+    
+    <button class="w-1/5 h-1/6 ml-8 rounded-lg border-4  bg-amber-600 hover:bg-amber-500 "onclick="wipe1()">C</button>
+<button class="w-1/5 h-1/6 rounded-lg border-4 bg-amber-600 hover:bg-amber-500" onclick="wipe()" >AC</button>
+<button class="w-1/5 h-1/6 rounded-lg border-4 bg-amber-600 hover:bg-amber-500 " onclick="show('.')" >.</button>
+<button class="w-1/5 h-1/6 rounded-lg border-4 bg-amber-600 hover:bg-amber-500" onclick="show('/')">/</button>
+
+
+</div>
+
+<div class="flex h-1/4  mx-auto">
+    
+    <button class="w-1/5 h-1/6 ml-8 rounded-lg border-4 hover:bg-neutral-600" onclick="show('7')">7</button>
+<button class="w-1/5 h-1/6 rounded-lg border-4 hover:bg-neutral-600" onclick="show('8')">8</button>
+<button class="w-1/5 h-1/6 rounded-lg border-4 hover:bg-neutral-600" onclick="show('9')">9</button>
+<button class="w-1/5 h-1/6 rounded-lg border-4 bg-amber-600 hover:bg-amber-500" onclick="show('*')">*</button>
+
+
+</div>
+
+<div class="flex h-1/4  mx-auto">
+    
+    <button class="w-1/5 h-1/6 ml-8 rounded-lg border-4 hover:bg-neutral-600" onclick="show('4')">4</button>
+<button class="w-1/5 h-1/6 rounded-lg border-4 hover:bg-neutral-600" onclick="show('5')">5</button>
+<button class="w-1/5 h-1/6 rounded-lg border-4 hover:bg-neutral-600" onclick="show('6')">6</button>
+<button class="w-1/5 h-1/6 rounded-lg border-4 bg-amber-600 hover:bg-amber-500" onclick="show('-')">-</button>
+
+
+</div>
+
+<div class="flex h-1/4  mx-auto">
+    
+    <button class="w-1/5 h-1/6 ml-8 rounded-lg border-4 hover:bg-neutral-600" onclick="show('1')">1</button>
+<button class="w-1/5 h-1/6 rounded-lg border-4 hover:bg-neutral-600" onclick="show('2')">2</button>
+<button class="w-1/5 h-1/6 rounded-lg border-4 hover:bg-neutral-600" onclick="show('3')">3</button>
+<button class="w-1/5 h-1/6 rounded-lg border-4 bg-amber-600 hover:bg-amber-500" onclick="show('+')">+</button>
+
+
+</div>
+
+<div class="flex h-1/4  mx-auto">
+    
+    <button class="w-1/5 h-1/6 ml-8 rounded-lg border-4 hover:bg-neutral-600" onclick="show('(')">(</button>
+<button class="w-1/5 h-1/6 rounded-lg border-4 hover:bg-neutral-600" onclick="show('0')">0</button>
+<button class="w-1/5 h-1/6 rounded-lg border-4 hover:bg-neutral-600" onclick="show(')')">)</button>
+<button class="w-1/5 h-1/6 rounded-lg border-4 bg-amber-600 hover:bg-amber-500" onclick="calc('=')">=</button>
+
+
+</div>
+
+
+
+    
+</div>
+
+        </div>
+    </div> 
+
+    <script src="src/app.js"></script>
+</body>
+</html>
